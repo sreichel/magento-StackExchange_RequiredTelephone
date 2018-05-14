@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <StackExchange_RequiredTelephone>
+            <version>0.0.1</version>
+        </StackExchange_RequiredTelephone>
+    </modules>
+    <global>
+        <models>
+            <stackexchange_required_telephone>
+                <class>StackExchange_RequiredTelephone_Model</class>
+            </stackexchange_required_telephone>
+        </models>
+        <events>
+            <customer_address_validation_after>
+                <observers>
+                    <stackexchange_required_telephone>
+                        <class>stackexchange_required_telephone/observer</class>
+                        <method>validateAddress</method>
+                    </stackexchange_required_telephone>
+                </observers>
+            </customer_address_validation_after>
+        </events>
+        <resources>
+            <stackexchange_required_telephone_setup>
+                <setup>
+                    <module>StackExchange_RequiredTelephone</module>
+                </setup>
+            </stackexchange_required_telephone_setup>
+        </resources>
+    </global>
+</config>

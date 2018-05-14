@@ -1,0 +1,20 @@
+{
+    "name": "stackexchange/stackexchange-required-telephone",
+    "type": "magento-module",
+    "description": "Makes telephone optional in checkout.",
+    "homepage": "https://magento.stackexchange.com/questions/9740/up-to-date-guide-to-remove-telephone-required-field-from-checkout",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "fmrng",
+            "role": "Author"
+        },
+        {
+            "name": "Sven Reichel",
+            "email": "s.reichel@maxxcount.de",
+            "role": "Maintainer"
+        }
+    ]
+}
