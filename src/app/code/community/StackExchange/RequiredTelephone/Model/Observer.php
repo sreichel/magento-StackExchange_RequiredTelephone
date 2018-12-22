@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Class StackExchange_RequiredTelephone_Model_Observer
+ * @SuppressWarnings(PHPMD.CamelCaseClassName)
+ */
 class StackExchange_RequiredTelephone_Model_Observer
 {
     /**
@@ -14,10 +18,11 @@ class StackExchange_RequiredTelephone_Model_Observer
      * - customer_address_validation_after
      *
      * @param Varien_Event_Observer $observer Event observer
+     * @throws ReflectionException
      */
     public function validateAddress(Varien_Event_Observer $observer)
     {
-        /* @var $address Mage_Customer_Model_Address_Abstract */
+        /* @var Mage_Customer_Model_Address_Abstract $address */
         $address = $observer->getAddress();
         if (!$address) {
             return;
@@ -29,7 +34,7 @@ class StackExchange_RequiredTelephone_Model_Observer
         }
         $prop->setAccessible(true);
         $errors = $prop->getValue($address);
-        $prop->setValue($address, array());
+        $prop->setValue($address, []);
 
         $errorMessage = $this->getErrorMessage();
         foreach ($errors as $error) {

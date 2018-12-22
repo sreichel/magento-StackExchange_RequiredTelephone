@@ -1,11 +1,9 @@
 {
-    "name": "stackexchange/stackexchange-required-telephone",
+    "name": "mse-sv3n/required-telephone",
     "type": "magento-module",
+    "license": "OSL-3.0",
     "description": "Makes telephone optional in checkout.",
     "homepage": "https://magento.stackexchange.com/questions/9740/up-to-date-guide-to-remove-telephone-required-field-from-checkout",
-    "require": {
-        "magento-hackathon/magento-composer-installer": "*"
-    },
     "authors": [
         {
             "name": "fmrng",
@@ -13,8 +11,12 @@
         },
         {
             "name": "Sven Reichel",
-            "email": "s.reichel@maxxcount.de",
-            "role": "Maintainer"
+            "homepage":"https://magento.stackexchange.com/users/46249/sv3n",
+            "email": "github-sr@hotmail.com",
+            "role": "Author/Maintainer"
         }
-    ]
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
 }
