@@ -1,4 +1,4 @@
-# LockAttributes Magento 1 Extension
+# Un-Require telephone in checkout Magento 1 Extension
 
 This extension telephone from required checkout attributes.
 
