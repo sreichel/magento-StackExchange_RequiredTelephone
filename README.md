@@ -8,8 +8,8 @@ This extension telephone from required checkout attributes.
 
 ## Facts
 - version: 1.0.0
-- extension key: StackExchange_LockAttributes
-- [extension on GitHub](https://github.com/sreichel/magento-StackExchange_LockAttributes)
+- extension key: StackExchange_RequiredTelephone
+- [extension on GitHub](https://github.com/sreichel/magento-StackExchange_RequiredTelephone)
 
 ### Description
 [up to date guide to remove telephone required field from checkout](https://magento.stackexchange.com/questions/9740/up-to-date-guide-to-remove-telephone-required-field-from-checkout)
@@ -30,7 +30,7 @@ modman clone https://github.com/sreichel/magento-StackExchange_RequiredTelephone
 ```
 - via composer
 ```
-composer require mse-sv3n/required-telephone
+composer require mse-sv3n/m1-required-telephone
 ```
 
 #### Uninstallation
@@ -40,11 +40,11 @@ modman remove magento-stackexchange-requiredtelephone.
 ```
 - via composer
 ```
-composer remove mse-sv3n/required-telephone
+composer remove mse-sv3n/m1-required-telephone
 ```
 
 ### Support
-If you have any issues with this extension, open an issue on [GitHub](https://github.com/sreichel/magento-StackExchange_LockAttributes/issues).
+If you have any issues with this extension, open an issue on [GitHub](https://github.com/sreichel/magento-StackExchange_RequiredTelephone/issues).
 
 ### Contribution
 Any contribution is highly appreciated. The best way to contribute code is to open a [pull request on GitHub](https://help.github.com/articles/using-pull-requests).
